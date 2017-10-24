@@ -13,7 +13,7 @@ import java.util.regex.*;
  * @author Muhammad Adnan Mohib
  */
 public class Student {
-    // date Members
+    // data Members
     private String studentName;
     private String registrationNumber;
     private Date dateOfBirth;
@@ -23,8 +23,7 @@ public class Student {
     // constructors
     
     // constructorr with no parameters
-    Student()
-    {
+    Student() {
         this.studentName = "";
         this.registrationNumber = "";
         this.dateOfBirth = null;
@@ -32,13 +31,11 @@ public class Student {
         this.CNIC = "";
     }
     // constructor with two parameters
-    Student(String name, String RegNo)
-    {
+    Student(String name, String RegNo) {
         if(this.isValidName(name) && this.isValidRegNo(RegNo)) {
-            this.studentName = name;
-            this.registrationNumber = RegNo;
+           this.studentName = name;
+           this.registrationNumber = RegNo;
         }
-        
     }
     
 
