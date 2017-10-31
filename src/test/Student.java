@@ -13,7 +13,7 @@ import java.util.regex.*;
  * @author Muhammad Adnan Mohib
  */
 public class Student {
-    // date Members
+    // data Members
     private String studentName;
     private String registrationNumber;
     private Date dateOfBirth;
